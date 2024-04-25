@@ -73,7 +73,7 @@ botonEncriptar.addEventListener("click", function () {
     function encriptarTexto(texto) {
       //el texto es cualquier texto
       //incovamos textarea porque es el texto valido ingresado por el usuario
-      const textarea = texto
+      const textarea =texto
 
         .replaceAll(/e/g, "enter")
         .replaceAll(/i/g, "imes")
